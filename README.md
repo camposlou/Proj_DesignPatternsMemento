@@ -38,4 +38,14 @@ Conclusão Final: Neste programa, coloquei duas classes num arquivo.cs para que 
 O resto do programa não sabe como está acontecendo, eles apenas sabem que podem chamar essas funções e o objeto faz o que deve fazer.
 
 
+PÓS E CONTRAS DESTE PADRÃO COMPORTAMENTAL MEMENTO
+
++ Você pode produzir instantâneos do estado do objeto sem violar seu encapsulamento.
++ Você pode simplificar o código do originador deixando o zelador manter o histórico do estado do originador.
+
+- O aplicativo pode consumir muita RAM se os clientes criarem lembranças com muita frequência.
+- Os zeladores devem acompanhar o ciclo de vida do originador para poder destruir lembranças obsoletas.
+- A maioria das linguagens de programação dinâmicas, como PHP, Python e JavaScript, não podem garantir que o estado dentro do memento permaneça intocado.
+
+
 
