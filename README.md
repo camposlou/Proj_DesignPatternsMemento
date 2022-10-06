@@ -35,7 +35,7 @@ Esta função acaba não sendo obrigatório no Memento, mas podendo ser acrescen
 
 
 Conclusão Final: Neste programa, coloquei duas classes num arquivo.cs só para que minha Classe Privada Memento("LembrancaCliente") fique oculta do resto do programa. Dessa forma estou garantindo o Encapsulamento da minha classe Memento("LembrancaCliente"). 
-Neste caso, o resto do programa não sabe como está acontecendo, eles apenas sabem que podem chamar essas funções e o objeto faz o que deve fazer.
+O resto do programa não sabe como está acontecendo, eles apenas sabem que podem chamar essas funções e o objeto faz o que deve fazer.
 
 
 
